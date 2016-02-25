@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+h1 {
+	font-family: 'Slabo 27px', serif;
+}
+
+form {
+	background: #f0f0f0;
+	display: inline-block;
+	font-size: 38px;
+}
+
+label {
+	width: 250px;
+	display: inline-block;
+}
+
+input {
+	width: calc(100%-270px);
+}
+
+.form-element-container {  
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.form-element-container:last-child {
+	border: none;
+}
+
+button:hover {
+	background: green;
+}
